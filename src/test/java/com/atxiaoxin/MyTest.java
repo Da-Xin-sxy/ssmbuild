@@ -53,4 +53,10 @@ public class MyTest {
         }
        // System.out.println("book"+book);
     }
+
+
+    @Test
+    public void testGit(){
+        System.out.println("Git Test!");
+    }
 }
