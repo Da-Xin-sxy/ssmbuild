@@ -62,5 +62,6 @@ public class MyTest {
         System.out.println("Git Test3!");
         System.out.println("Git Test4!");
         System.out.println("master Test!");
+        System.out.println("Push Test!");
     }
 }
