@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE configuration
+
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+    <!--注意，这里的configuration是有顺序要求的
+    match "(properties?,settings?,typeAliases?,typeHandlers?,objectFactory?,
+    objectWrapperFactory?,plugins?,environments?,databaseIdProvider?,mappers?)".  -->
+
+
+    <!--配置数据源，交给spring去做-->
+    <typeAliases>
+        <package name="com.atxiaoxin.domain"/>
+    </typeAliases>
+
+
+    <mappers>
+        <mapper resource="com/atxiaoxin/dao/BookMapper.xml"></mapper>
+    </mappers>
+</configuration>
